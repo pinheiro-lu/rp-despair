@@ -427,8 +427,11 @@ Para resolver esse problema buscamos encontrar um melhor limiar de decisão cria
 	\caption{Relatório de classificação do Random Forest}
 \end{table}
 
-\section{Discussão e Conclusão}
+\section{Discussão}
 A obtenção dos dados representa a parte mais crítica do estudo, pois dados de má qualidade podem comprometer a acurácia do aprendizado dos algoritmos, impedindo que eles encontrem e classifiquem com precisão a "promissoridade" de uma patente. No entanto, a extração dos dados englobou o cálculo de variáveis que exigiram maior complexidade computacional e o acesso a outras fontes de dados que armazenam informações de patentes para complementar os dados extraídos do Google Patents. Outro fator relevante para a busca de dados em outras plataformas foi o fato de algumas patentes mais antigas não estarem disponíveis facilmente na internet. Todos esses fatores fizeram com que a etapa de coleta de dados precisasse de maior alocação de tempo.
+
+\section{Conclusão}
+Este trabalho apresentou uma análise de patentes brasileiras com o objetivo de identificar tecnologias emergentes relacionadas à produção de etanol. Os resultados mostraram que o modelo Random Forest obteve maior F1-Score final (49,23\%) enquanto o SVM apresentou F1-Score inferior (35,29\%), e ambos alcançaram AUROC acima de 85\%, indicando capacidade discriminativa moderada. A qualidade e a cobertura dos dados mostraram-se fatores limitantes para o desempenho; trabalhos futuros devem ampliar e consolidar fontes de dados, explorar calibração de limiar, técnicas de balanceamento de classes e incorporar novas características que capturem melhor a evolução tecnológica.
 
 \printbibliography
 
