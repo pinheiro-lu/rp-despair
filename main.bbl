@@ -54,6 +54,51 @@
       \verb https://www.embrapa.br/agencia-de-informacao-tecnologica/tematicas/agroenergia/p-d-e-i/etanol
       \endverb
     \endentry
+    \entry{choi2021identifying}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9453a95e405e829bdda02ec05c2f54d7}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={Youngjae},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=626e603a4ef5cbb784f0182fd85c23e8}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Sanghyun},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=605dc9312f1b905d228fba91d5d2b276}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Sungjoo},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{651bcd1e0cd645744894c8f20faea29e}
+      \strng{fullhash}{64c875cd30665eb1dfe2feec950857dc}
+      \strng{bibnamehash}{64c875cd30665eb1dfe2feec950857dc}
+      \strng{authorbibnamehash}{64c875cd30665eb1dfe2feec950857dc}
+      \strng{authornamehash}{651bcd1e0cd645744894c8f20faea29e}
+      \strng{authorfullhash}{64c875cd30665eb1dfe2feec950857dc}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientometrics}
+      \field{number}{7}
+      \field{title}{Identifying emerging technologies to envision a future innovation ecosystem: A machine learning approach to patent data}
+      \field{volume}{126}
+      \field{year}{2021}
+      \field{pages}{5431\bibrangedash 5476}
+      \range{pages}{46}
+    \endentry
     \entry{Chung2020}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=9e0e1cb9b07d95370de0056e32d5fd79}{%
@@ -161,6 +206,147 @@
       \verb{url}
       \verb https://www.embrapa.br/busca-de-noticias/-/noticia/18044516/estudo-mostra-que-etanol-de-cana-emite-menos-gas-carbonico-para-a-atmosfera-do-que-a-gasolina
       \endverb
+    \endentry
+    \entry{han2022assessing}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=26e958b9c08c04865fd5810230a47beb}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Fang},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=52ce3fac76dc18a6cff982105d7bbc2e}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Shengtai},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=503a19e30ff8418f009e6a130f503f45}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Junpeng},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=944d21a090d2fc32d2cdd40c7a346126}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science San Francisco, CA USA}%
+      }
+      \strng{namehash}{4b558275806d73139e4978bc5f9ab345}
+      \strng{fullhash}{841958bf00430cb0817d2632142d199d}
+      \strng{bibnamehash}{841958bf00430cb0817d2632142d199d}
+      \strng{authorbibnamehash}{841958bf00430cb0817d2632142d199d}
+      \strng{authornamehash}{4b558275806d73139e4978bc5f9ab345}
+      \strng{authorfullhash}{841958bf00430cb0817d2632142d199d}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PloS one}
+      \field{number}{12}
+      \field{title}{Assessing future technological impacts of patents based on the classification algorithms in machine learning: The case of electric vehicle domain}
+      \field{volume}{17}
+      \field{year}{2022}
+      \field{pages}{e0278523}
+      \range{pages}{-1}
+    \endentry
+    \entry{he2025patent}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d0e47111c809613bed7ed30a6dd13096}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Yifan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=414ec5b36b2b24e3f8866bf3805fa8c7}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Kehui},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7cacfe272c4d395c979d6aecd2f5ec9c}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Jiawei},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science San Francisco, CA USA}%
+      }
+      \strng{namehash}{28d0dc09a98361c903c75e7a09bd557c}
+      \strng{fullhash}{d25cfefb6b95de4b1ed0c7a3cd2de912}
+      \strng{bibnamehash}{d25cfefb6b95de4b1ed0c7a3cd2de912}
+      \strng{authorbibnamehash}{d25cfefb6b95de4b1ed0c7a3cd2de912}
+      \strng{authornamehash}{28d0dc09a98361c903c75e7a09bd557c}
+      \strng{authorfullhash}{d25cfefb6b95de4b1ed0c7a3cd2de912}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PloS one}
+      \field{number}{4}
+      \field{title}{Patent value prediction in biomedical textiles: A method based on a fusion of machine learning models}
+      \field{volume}{20}
+      \field{year}{2025}
+      \field{pages}{e0322182}
+      \range{pages}{-1}
+    \endentry
+    \entry{hu2023evaluation}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a60c956271b3548d59af2d1393aeb607}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Zewen},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ea39996833ad2b3ce4b9553c061741e}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Xiji},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bfb6829a66034c1ca539e9f731c5ad5e}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Angela},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{0ed40781201bfe19d49cab603ed92d17}
+      \strng{fullhash}{6dcea8522622ce922f12f9a7cd519e9e}
+      \strng{bibnamehash}{6dcea8522622ce922f12f9a7cd519e9e}
+      \strng{authorbibnamehash}{6dcea8522622ce922f12f9a7cd519e9e}
+      \strng{authornamehash}{0ed40781201bfe19d49cab603ed92d17}
+      \strng{authorfullhash}{6dcea8522622ce922f12f9a7cd519e9e}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Informetrics}
+      \field{number}{2}
+      \field{title}{Evaluation and identification of potential high-value patents in the field of integrated circuits using a multidimensional patent indicators pre-screening strategy and machine learning approaches}
+      \field{volume}{17}
+      \field{year}{2023}
+      \field{pages}{101406}
+      \range{pages}{1}
     \endentry
     \entry{IBM2}{report}{}
       \name{author}{1}{}{%
@@ -284,6 +470,163 @@
       \field{note}{{Boletim publicado pela Presidência, Diretoria Executiva, Assessoria de Assuntos Econômicos (AECON).}}
       \field{title}{{Boletim mensal de propriedade industrial: estatísticas preliminares}}
       \field{year}{2023}
+    \endentry
+    \entry{kazmi2025innovations}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=bb9ede1d67f8a37c82357c990f12b2c1}{%
+           family={Kazmi},
+           familyi={K\bibinitperiod},
+           given={Abeer},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=22297c9827a1843cb8cb6b7b2ba19fe1}{%
+           family={Sultana},
+           familyi={S\bibinitperiod},
+           given={Tahira},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a38d4c4bb26c49766f9cdf7dac82d29f}{%
+           family={Ali},
+           familyi={A\bibinitperiod},
+           given={Amir},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=85a3a16d1861063db285ea953d763b99}{%
+           family={Nijabat},
+           familyi={N\bibinitperiod},
+           given={Aneela},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a3569ded9a59f61517061f6af0931088}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Gaojie},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc2ad3ca3e886d58f565c6c99d50dc48}{%
+           family={Hou},
+           familyi={H\bibinitperiod},
+           given={Hongwei},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{3ff059c4df8d8d174f2d69cfc73052b3}
+      \strng{fullhash}{b1e31fe2f61bc1f0cf4e0840815e45c4}
+      \strng{bibnamehash}{b1e31fe2f61bc1f0cf4e0840815e45c4}
+      \strng{authorbibnamehash}{b1e31fe2f61bc1f0cf4e0840815e45c4}
+      \strng{authornamehash}{3ff059c4df8d8d174f2d69cfc73052b3}
+      \strng{authorfullhash}{b1e31fe2f61bc1f0cf4e0840815e45c4}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Energy Strategy Reviews}
+      \field{title}{Innovations in bioethanol production: A comprehensive review of feedstock generations and technology advances}
+      \field{volume}{57}
+      \field{year}{2025}
+      \field{pages}{101634}
+      \range{pages}{1}
+    \endentry
+    \entry{kwon2020identification}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8c875634c530dcd0dceede05261bd4c0}{%
+           family={Kwon},
+           familyi={K\bibinitperiod},
+           given={Uijun},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d8993572f684b838e7b610b74dffd5c}{%
+           family={Geum},
+           familyi={G\bibinitperiod},
+           given={Youngjung},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{76feaeb0f6ad0b84ab022b8d4fc240fd}
+      \strng{fullhash}{76feaeb0f6ad0b84ab022b8d4fc240fd}
+      \strng{bibnamehash}{76feaeb0f6ad0b84ab022b8d4fc240fd}
+      \strng{authorbibnamehash}{76feaeb0f6ad0b84ab022b8d4fc240fd}
+      \strng{authornamehash}{76feaeb0f6ad0b84ab022b8d4fc240fd}
+      \strng{authorfullhash}{76feaeb0f6ad0b84ab022b8d4fc240fd}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientometrics}
+      \field{number}{3}
+      \field{title}{Identification of promising inventions considering the quality of knowledge accumulation: A machine learning approach}
+      \field{volume}{125}
+      \field{year}{2020}
+      \field{pages}{1877\bibrangedash 1897}
+      \range{pages}{21}
+    \endentry
+    \entry{kyebambe2017forecasting}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=14d4fcfe1e06381963328e6b2a211f2e}{%
+           family={Kyebambe},
+           familyi={K\bibinitperiod},
+           given={Moses\bibnamedelima Ntanda},
+           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d495f2d44e5d6442fcb5c83451f1ffcb}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Ge},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=278cd71dfff066b8537e29a0c66aea80}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Yunqing},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2b81ebae40a2ae6e679e0b7eec9889a8}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Chunhui},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6fab509a575563dcce94d6d45f8bbd26}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zhenyu},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{4cecceee2c330454149c87e63a2fcdd0}
+      \strng{fullhash}{67ff16f80a0fb304636bcbfb619fa564}
+      \strng{bibnamehash}{67ff16f80a0fb304636bcbfb619fa564}
+      \strng{authorbibnamehash}{67ff16f80a0fb304636bcbfb619fa564}
+      \strng{authornamehash}{4cecceee2c330454149c87e63a2fcdd0}
+      \strng{authorfullhash}{67ff16f80a0fb304636bcbfb619fa564}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Technological Forecasting and Social Change}
+      \field{title}{Forecasting emerging technologies: A supervised learning approach through patent analysis}
+      \field{volume}{125}
+      \field{year}{2017}
+      \field{pages}{236\bibrangedash 244}
+      \range{pages}{9}
     \endentry
     \entry{Lee2022}{article}{}
       \name{author}{4}{}{%
@@ -479,41 +822,6 @@
       \endverb
       \verb{url}
       \verb https://sebrae.com.br/sites/PortalSebrae/ufs/mt/artigos/o-que-e-patente,af88f8ba5a17a510VgnVCM1000004c00210aRCRD
-      \endverb
-    \endentry
-    \entry{EMBRAPA2025a}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=11a3f921148f50765bf93fa3e1064a43}{%
-           family={Vian},
-           familyi={V\bibinitperiod},
-           given={Carlos\bibnamedelimb Eduardos\bibnamedelima Freitas},
-           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim F\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Empresa Brasileira De Pesquisa Agropecuária - EMBRAPA}%
-      }
-      \strng{namehash}{11a3f921148f50765bf93fa3e1064a43}
-      \strng{fullhash}{11a3f921148f50765bf93fa3e1064a43}
-      \strng{bibnamehash}{11a3f921148f50765bf93fa3e1064a43}
-      \strng{authorbibnamehash}{11a3f921148f50765bf93fa3e1064a43}
-      \strng{authornamehash}{11a3f921148f50765bf93fa3e1064a43}
-      \strng{authorfullhash}{11a3f921148f50765bf93fa3e1064a43}
-      \field{sortinit}{V}
-      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Acesso em: 20 ago. 2025.}
-      \field{title}{{Etanol}}
-      \field{year}{2022}
-      \verb{urlraw}
-      \verb https://www.embrapa.br/agencia-de-informacao-tecnologica/cultivos/cana/pos-producao/alcool/tecnologias-emergentes/etanol
-      \endverb
-      \verb{url}
-      \verb https://www.embrapa.br/agencia-de-informacao-tecnologica/cultivos/cana/pos-producao/alcool/tecnologias-emergentes/etanol
       \endverb
     \endentry
     \entry{Zhu2005}{report}{}
@@ -588,6 +896,51 @@
       \verb https://www.embrapa.br/agencia-de-informacao-tecnologica/tematicas/agroenergia/p-d-e-i/etanol
       \endverb
     \endentry
+    \entry{choi2021identifying}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9453a95e405e829bdda02ec05c2f54d7}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={Youngjae},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=626e603a4ef5cbb784f0182fd85c23e8}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Sanghyun},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=605dc9312f1b905d228fba91d5d2b276}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Sungjoo},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{651bcd1e0cd645744894c8f20faea29e}
+      \strng{fullhash}{64c875cd30665eb1dfe2feec950857dc}
+      \strng{bibnamehash}{64c875cd30665eb1dfe2feec950857dc}
+      \strng{authorbibnamehash}{64c875cd30665eb1dfe2feec950857dc}
+      \strng{authornamehash}{651bcd1e0cd645744894c8f20faea29e}
+      \strng{authorfullhash}{64c875cd30665eb1dfe2feec950857dc}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientometrics}
+      \field{number}{7}
+      \field{title}{Identifying emerging technologies to envision a future innovation ecosystem: A machine learning approach to patent data}
+      \field{volume}{126}
+      \field{year}{2021}
+      \field{pages}{5431\bibrangedash 5476}
+      \range{pages}{46}
+    \endentry
     \entry{Chung2020}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=9e0e1cb9b07d95370de0056e32d5fd79}{%
@@ -695,6 +1048,147 @@
       \verb{url}
       \verb https://www.embrapa.br/busca-de-noticias/-/noticia/18044516/estudo-mostra-que-etanol-de-cana-emite-menos-gas-carbonico-para-a-atmosfera-do-que-a-gasolina
       \endverb
+    \endentry
+    \entry{han2022assessing}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=26e958b9c08c04865fd5810230a47beb}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Fang},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=52ce3fac76dc18a6cff982105d7bbc2e}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Shengtai},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=503a19e30ff8418f009e6a130f503f45}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Junpeng},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=944d21a090d2fc32d2cdd40c7a346126}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science San Francisco, CA USA}%
+      }
+      \strng{namehash}{4b558275806d73139e4978bc5f9ab345}
+      \strng{fullhash}{841958bf00430cb0817d2632142d199d}
+      \strng{bibnamehash}{841958bf00430cb0817d2632142d199d}
+      \strng{authorbibnamehash}{841958bf00430cb0817d2632142d199d}
+      \strng{authornamehash}{4b558275806d73139e4978bc5f9ab345}
+      \strng{authorfullhash}{841958bf00430cb0817d2632142d199d}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PloS one}
+      \field{number}{12}
+      \field{title}{Assessing future technological impacts of patents based on the classification algorithms in machine learning: The case of electric vehicle domain}
+      \field{volume}{17}
+      \field{year}{2022}
+      \field{pages}{e0278523}
+      \range{pages}{-1}
+    \endentry
+    \entry{he2025patent}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d0e47111c809613bed7ed30a6dd13096}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Yifan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=414ec5b36b2b24e3f8866bf3805fa8c7}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Kehui},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7cacfe272c4d395c979d6aecd2f5ec9c}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Jiawei},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science San Francisco, CA USA}%
+      }
+      \strng{namehash}{28d0dc09a98361c903c75e7a09bd557c}
+      \strng{fullhash}{d25cfefb6b95de4b1ed0c7a3cd2de912}
+      \strng{bibnamehash}{d25cfefb6b95de4b1ed0c7a3cd2de912}
+      \strng{authorbibnamehash}{d25cfefb6b95de4b1ed0c7a3cd2de912}
+      \strng{authornamehash}{28d0dc09a98361c903c75e7a09bd557c}
+      \strng{authorfullhash}{d25cfefb6b95de4b1ed0c7a3cd2de912}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PloS one}
+      \field{number}{4}
+      \field{title}{Patent value prediction in biomedical textiles: A method based on a fusion of machine learning models}
+      \field{volume}{20}
+      \field{year}{2025}
+      \field{pages}{e0322182}
+      \range{pages}{-1}
+    \endentry
+    \entry{hu2023evaluation}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a60c956271b3548d59af2d1393aeb607}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Zewen},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ea39996833ad2b3ce4b9553c061741e}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Xiji},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bfb6829a66034c1ca539e9f731c5ad5e}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Angela},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{0ed40781201bfe19d49cab603ed92d17}
+      \strng{fullhash}{6dcea8522622ce922f12f9a7cd519e9e}
+      \strng{bibnamehash}{6dcea8522622ce922f12f9a7cd519e9e}
+      \strng{authorbibnamehash}{6dcea8522622ce922f12f9a7cd519e9e}
+      \strng{authornamehash}{0ed40781201bfe19d49cab603ed92d17}
+      \strng{authorfullhash}{6dcea8522622ce922f12f9a7cd519e9e}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Informetrics}
+      \field{number}{2}
+      \field{title}{Evaluation and identification of potential high-value patents in the field of integrated circuits using a multidimensional patent indicators pre-screening strategy and machine learning approaches}
+      \field{volume}{17}
+      \field{year}{2023}
+      \field{pages}{101406}
+      \range{pages}{1}
     \endentry
     \entry{IBM2}{report}{}
       \name{author}{1}{}{%
@@ -818,6 +1312,163 @@
       \field{note}{{Boletim publicado pela Presidência, Diretoria Executiva, Assessoria de Assuntos Econômicos (AECON).}}
       \field{title}{{Boletim mensal de propriedade industrial: estatísticas preliminares}}
       \field{year}{2023}
+    \endentry
+    \entry{kazmi2025innovations}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=bb9ede1d67f8a37c82357c990f12b2c1}{%
+           family={Kazmi},
+           familyi={K\bibinitperiod},
+           given={Abeer},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=22297c9827a1843cb8cb6b7b2ba19fe1}{%
+           family={Sultana},
+           familyi={S\bibinitperiod},
+           given={Tahira},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a38d4c4bb26c49766f9cdf7dac82d29f}{%
+           family={Ali},
+           familyi={A\bibinitperiod},
+           given={Amir},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=85a3a16d1861063db285ea953d763b99}{%
+           family={Nijabat},
+           familyi={N\bibinitperiod},
+           given={Aneela},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a3569ded9a59f61517061f6af0931088}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Gaojie},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc2ad3ca3e886d58f565c6c99d50dc48}{%
+           family={Hou},
+           familyi={H\bibinitperiod},
+           given={Hongwei},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{3ff059c4df8d8d174f2d69cfc73052b3}
+      \strng{fullhash}{b1e31fe2f61bc1f0cf4e0840815e45c4}
+      \strng{bibnamehash}{b1e31fe2f61bc1f0cf4e0840815e45c4}
+      \strng{authorbibnamehash}{b1e31fe2f61bc1f0cf4e0840815e45c4}
+      \strng{authornamehash}{3ff059c4df8d8d174f2d69cfc73052b3}
+      \strng{authorfullhash}{b1e31fe2f61bc1f0cf4e0840815e45c4}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Energy Strategy Reviews}
+      \field{title}{Innovations in bioethanol production: A comprehensive review of feedstock generations and technology advances}
+      \field{volume}{57}
+      \field{year}{2025}
+      \field{pages}{101634}
+      \range{pages}{1}
+    \endentry
+    \entry{kwon2020identification}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8c875634c530dcd0dceede05261bd4c0}{%
+           family={Kwon},
+           familyi={K\bibinitperiod},
+           given={Uijun},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d8993572f684b838e7b610b74dffd5c}{%
+           family={Geum},
+           familyi={G\bibinitperiod},
+           given={Youngjung},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{76feaeb0f6ad0b84ab022b8d4fc240fd}
+      \strng{fullhash}{76feaeb0f6ad0b84ab022b8d4fc240fd}
+      \strng{bibnamehash}{76feaeb0f6ad0b84ab022b8d4fc240fd}
+      \strng{authorbibnamehash}{76feaeb0f6ad0b84ab022b8d4fc240fd}
+      \strng{authornamehash}{76feaeb0f6ad0b84ab022b8d4fc240fd}
+      \strng{authorfullhash}{76feaeb0f6ad0b84ab022b8d4fc240fd}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientometrics}
+      \field{number}{3}
+      \field{title}{Identification of promising inventions considering the quality of knowledge accumulation: A machine learning approach}
+      \field{volume}{125}
+      \field{year}{2020}
+      \field{pages}{1877\bibrangedash 1897}
+      \range{pages}{21}
+    \endentry
+    \entry{kyebambe2017forecasting}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=14d4fcfe1e06381963328e6b2a211f2e}{%
+           family={Kyebambe},
+           familyi={K\bibinitperiod},
+           given={Moses\bibnamedelima Ntanda},
+           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d495f2d44e5d6442fcb5c83451f1ffcb}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Ge},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=278cd71dfff066b8537e29a0c66aea80}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Yunqing},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2b81ebae40a2ae6e679e0b7eec9889a8}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Chunhui},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6fab509a575563dcce94d6d45f8bbd26}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zhenyu},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{4cecceee2c330454149c87e63a2fcdd0}
+      \strng{fullhash}{67ff16f80a0fb304636bcbfb619fa564}
+      \strng{bibnamehash}{67ff16f80a0fb304636bcbfb619fa564}
+      \strng{authorbibnamehash}{67ff16f80a0fb304636bcbfb619fa564}
+      \strng{authornamehash}{4cecceee2c330454149c87e63a2fcdd0}
+      \strng{authorfullhash}{67ff16f80a0fb304636bcbfb619fa564}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Technological Forecasting and Social Change}
+      \field{title}{Forecasting emerging technologies: A supervised learning approach through patent analysis}
+      \field{volume}{125}
+      \field{year}{2017}
+      \field{pages}{236\bibrangedash 244}
+      \range{pages}{9}
     \endentry
     \entry{Lee2022}{article}{}
       \name{author}{4}{}{%
@@ -1013,41 +1664,6 @@
       \endverb
       \verb{url}
       \verb https://sebrae.com.br/sites/PortalSebrae/ufs/mt/artigos/o-que-e-patente,af88f8ba5a17a510VgnVCM1000004c00210aRCRD
-      \endverb
-    \endentry
-    \entry{EMBRAPA2025a}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=11a3f921148f50765bf93fa3e1064a43}{%
-           family={Vian},
-           familyi={V\bibinitperiod},
-           given={Carlos\bibnamedelimb Eduardos\bibnamedelima Freitas},
-           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim F\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Empresa Brasileira De Pesquisa Agropecuária - EMBRAPA}%
-      }
-      \strng{namehash}{11a3f921148f50765bf93fa3e1064a43}
-      \strng{fullhash}{11a3f921148f50765bf93fa3e1064a43}
-      \strng{bibnamehash}{11a3f921148f50765bf93fa3e1064a43}
-      \strng{authorbibnamehash}{11a3f921148f50765bf93fa3e1064a43}
-      \strng{authornamehash}{11a3f921148f50765bf93fa3e1064a43}
-      \strng{authorfullhash}{11a3f921148f50765bf93fa3e1064a43}
-      \field{sortinit}{V}
-      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Acesso em: 20 ago. 2025.}
-      \field{title}{{Etanol}}
-      \field{year}{2022}
-      \verb{urlraw}
-      \verb https://www.embrapa.br/agencia-de-informacao-tecnologica/cultivos/cana/pos-producao/alcool/tecnologias-emergentes/etanol
-      \endverb
-      \verb{url}
-      \verb https://www.embrapa.br/agencia-de-informacao-tecnologica/cultivos/cana/pos-producao/alcool/tecnologias-emergentes/etanol
       \endverb
     \endentry
     \entry{Zhu2005}{report}{}
