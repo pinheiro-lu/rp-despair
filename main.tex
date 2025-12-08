@@ -198,7 +198,11 @@ O etanol, ou álcool etílico, é uma substância de grande importância na ind�
 
 O Brasil é o maior produtor do mundo de cana-de-açúcar e, na safra 2020/2021, foi responsável pela produção de 654,5 milhões de toneladas, destinadas à produção de 41,2 milhões de toneladas de açúcar e 29,7 bilhões de litros de etanol \parencite{CONAB2021}. O estado de São Paulo foi o líder na produção do país, com 425,6 milhões de toneladas colhidas e 14,7 milhões m³ de etanol produzidos, segundo o \textcite{SEADE2025}.
 
-Esses dados colocam o etanol como um produto de extrema importância para o avanço em relação aos Objetivos de Desenvolvimento Sustentável (ODS), em particular o ODS 7: energia limpa e sustentável \parencite{ONU2025}. Sendo assim, o estudo de tecnologias de etanol emergentes desenvolvidas no Brasil se faz relevante no cenário brasileiro e global, além de servir de apoio para o avanço do ODS 9 (indústria, inovação e infraestrutura), especialmente nos tópicos 9.5 e 9.b.
+Esses dados colocam o etanol como um produto de extrema importância para o avanço em relação aos Objetivos de Desenvolvimento Sustentável (ODS), em particular o ODS 7: energia limpa e sustentável \parencite{ONU2025}. Sendo assim, o estudo de tecnologias de etanol emergentes desenvolvidas no Brasil se faz relevante no cenário brasileiro e global, além de servir de apoio para o avanço do ODS 9 (indústria, inovação e infraestrutura), especialmente nos tópicos 9.5 e 9.b, que são detalhados a seguir \parencite{ONU2025}:
+\begin{itemize}
+    \item[\textbf{9.5}] Fortalecer a pesquisa científica, melhorar as capacidades tecnológicas de setores industriais em todos os países, particularmente os países em desenvolvimento, inclusive, até 2030, incentivando a inovação e aumentando substancialmente o número de trabalhadores de pesquisa e desenvolvimento por milhão de pessoas e os gastos público e privado em pesquisa e desenvolvimento.
+    \item[\textbf{9.b}] Apoiar o desenvolvimento tecnológico, a pesquisa e a inovação nacionais nos países em desenvolvimento, inclusive garantindo um ambiente político propício para, entre outras coisas, diversificação industrial e agregação de valor às commodities.
+\end{itemize}
 
 \section{Fundamentos Teóricos}
 Para o desenvolvimento do presente trabalho, alguns fundamentos teóricos são essenciais, tais como o conceito de patentes e conceitos relacionados aos algoritmos de aprendizado de máquina usados na identificação das tecnologias emergentes. Esses fundamentos serão apresentados nesta seção.
@@ -213,9 +217,7 @@ Uma máquina de vetores de suporte (SVM) é um algoritmo supervisionado de apren
 
 A base da possibilidade de inferir quais são as tecnologias promissoras vem da implicação que a rede de patentes conectadas pelas citações se comporta de forma similar a um grafo direcionado evoluindo, cujas conexões representam referências a uma tecnologia anterior como base para criação de uma nova, logo os vértices de origem mais centrais podem ser destacados como fonte de inovação. Logo, algoritmos de aprendizado supervisionado como Random Forest e Support Vector Machine podem ser treinados a partir de dados anteriores para reconhecer e destacar as características desses vértices, de forma a obter as patentes, autores e tecnologias citadas.
 
-Os dados buscados para cada patente foram: URL, título, data de publicação, citações da patente (\textit{patent citations}), citado por (\textit{cited by}), resumo (\textit{abstract}), descrição (\textit{description}), quantidade de imagens, documentos similares (\textit{similar documents}), aplicações que reivindicam prioridade (\textit{application claiming priority}), eventos legais (\textit{legal events}), conceitos (\textit{concepts}), inventores (\textit{authors}), outras línguas (\textit{other languages}), info e links externos (\textit{external links}). No entanto, devido à idade de algumas patentes e à sua disponibilidade na internet, o conjunto final de patentes foi reduzido a 5376 patentes.
-
-Mais especificamente, neste trabalho faremos uso de algoritmos de aprendizado semissupervisionado, que consistem em algoritmos que fazem uso das técnicas de aprendizado supervisionado em um pequeno conjunto de dados, como base para um aprendizado não supervisionado para um conjunto grande de dados \parencite{Zhu2005}. São usados principalmente quando adquirir rótulos para os dados é difícil (e.g. classificação de potencial de patentes a partir de revisão humana).
+Mais especificamente, neste trabalho faremos uso de algoritmos de aprendizado supervisionado e semissupervisionado. Estes últimos consistem em algoritmos que fazem uso das técnicas de aprendizado supervisionado em um pequeno conjunto de dados, como base para um aprendizado não supervisionado para um conjunto grande de dados \parencite{Zhu2005}.
 
 \section{Trabalhos Relacionados}
 No estudo de \textcite{Chung2020}, “Early detection of valuable patents using a deep learning model: Case of semiconductor industry”, é proposto um modelo de aprendizado profundo combinando CNN e LSTM para extrair características semânticas de patentes, classificando-as em três níveis de valor com base em citações futuras anuais. O modelo apresentou mais de 75\% de precisão na identificação de patentes promissoras no setor de semicondutores. 
@@ -230,48 +232,52 @@ Em patentes de biomedicina têxtil, \textcite{he2025patent} desenvolveram o mode
 
 No contexto brasileiro, \textcite{kazmi2025innovations} investigaram o papel do país no desenvolvimento de tecnologias para produção de etanol de segunda geração por meio da análise de patentes publicadas entre 2006 e 2015.
 
-No estudo “Forecasting emerging technologies: A supervised learning approach through patent analysis” de \textcite{kyebambe2017forecasting} desenvolveu um algoritmo para rotular automaticamente patentes como “emergentes” ou “não emergentes” e usar esses dados para treinar modelos de aprendizado de máquina supervisionado. No entanto, diferente do nosso estudo, o artigo de Kyebambe busca identificar ondas tecnológicas emergentes enquanto nós buscamos identificar uma tecnologia emergente apenas.
+No estudo “Forecasting emerging technologies: A supervised learning approach through patent analysis” de \textcite{kyebambe2017forecasting} desenvolveu um algoritmo para rotular automaticamente clusters de patentes como “emergentes” ou “não emergentes” e usar esses dados para treinar modelos de aprendizado de máquina supervisionado. Nos baseamos em algumas métricas e definições vindas desse trabalho na realização da nossa pesquisa. No entanto, diferente do nosso estudo, o artigo de Kyebambe busca identificar ondas tecnológicas emergentes enquanto nós buscamos identificar uma tecnologia emergente apenas, de forma que certas adaptações foram necessárias.
 
-Por fim, o trabalho de \textcite{choi2021identifying} apresentou uma abordagem semi-supervisionada para identificar tecnologias emergentes, combinando um pequeno conjunto de patentes rotuladas por especialistas com um grande conjunto não rotulado, permitindo rotular automaticamente muitas patentes e facilitar a descoberta de inovações promissoras. Nosso estudo se inspira nesta metodologia, buscando preencher a lacuna existente na análise de patentes recentes de tecnologias emergentes de etanol no Brasil.
+Por fim, o trabalho de \textcite{choi2021identifying} apresentou uma abordagem semi-supervisionada para identificar tecnologias emergentes, combinando um pequeno conjunto de patentes rotuladas por especialistas com um grande conjunto não rotulado, permitindo rotular automaticamente muitas patentes e facilitar a descoberta de inovações promissoras. Nosso estudo se inspira principalmente nesta metodologia, buscando preencher a lacuna existente na análise de patentes recentes de tecnologias emergentes de etanol no Brasil. Entretanto, o estudo simula a rotulação dos especialistas pelas citações futuras, que é uma definição que pode ser enviesada; por isso, preferimos não utilizá-la.
 
 \section{Metodologia}
-O desenvolvimento deste estudo demandou, inicialmente, uma etapa de coleta e organização de dados. Para isso, foram utilizadas as bases de dados de patentes do Instituto Nacional da Propriedade Industrial (INPI) e da Organização Mundial da Propriedade Intelectual (WIPO).
+O desenvolvimento deste estudo demandou, inicialmente, uma etapa de coleta e organização de dados. Para isso, utilizamos a base de dados da Organização Mundial da Propriedade Intelectual (WIPO).
 
-Na base do INPI, empregou-se a palavra-chave “etanol”, que apresentou resultados satisfatórios, embora limitações estruturais do sítio impeçam a formulação de consultas mais complexas. Para assegurar comparabilidade metodológica, selecionamos os mesmos códigos IPC utilizados por \textcite{Perrone2011}, cujo foco também recai sobre tecnologias associadas à produção de etanol. Dessa forma, incorporamos uma estratégia validada previamente na literatura. Adicionalmente, diversas consultas foram testadas na WIPO até se chegar à expressão de busca final, reproduzida abaixo:
+Para assegurar comparabilidade metodológica, selecionamos os mesmos códigos IPC utilizados por \textcite{Perrone2011}, cujo foco também recai sobre tecnologias associadas à produção de etanol. Dessa forma, incorporamos uma estratégia validada previamente na literatura. Adicionalmente, diversas consultas foram testadas na WIPO até se chegar à expressão de busca final, reproduzida abaixo:
 
 \begin{lstlisting}[breaklines=true,basicstyle=\ttfamily\small]
 IC:(C12P OR C12N OR C10L OR C07C OR A23B) AND 
 FP:(metanol OR methanol OR sugar OR etanol OR ethanol OR cana OR stover OR celulose OR bagasse OR madeira OR wood OR wooden OR cellulose OR bagaco OR beterraba OR beet OR sugarcane OR sucrose OR acucar* OR melaco OR melaco OR alcool* OR bioetanol OR bioethanol OR etil* OR milho OR corn OR soy OR soybean OR soja OR cereal OR trigo OR starch OR lignocellulose OR lignocelulose OR palha OR res?duo* OR biomass OR biomassa)
 \end{lstlisting}
 
-Ambas as bases retornam informações como título da patente, inventores, data e número de publicação. Este último funciona como identificador global, sendo utilizado para compor um arquivo CSV. Realizou-se, então, um tratamento desses identificadores, pois o formato utilizado pela WIPO inviabiliza consultas diretas no Google Patents.
+A busca retornou informações como título da patente, inventores, data e número de publicação (identificador). Realizou-se, então, um tratamento desses identificadores, visto que o identificador é específico para a base de dados, não correspondendo ao identificador global da patente.
 
-Com os identificadores tratados, desenvolveu-se um \textit{web scraper} em Python para extrair das páginas do Google Patents as variáveis necessárias ao treinamento dos modelos de aprendizado de máquina. As variáveis coletadas e calculadas foram:
+Com os identificadores tratados (i.e. trocados pelo identificador global), desenvolveu-se um \textit{web scraper} em Python para extrair das páginas do Google Patents e da Organização de Patentes Europeias as variáveis necessárias ao treinamento dos modelos de aprendizado de máquina. Uma  As variáveis coletadas e calculadas foram:
 
 \begin{enumerate}
     \item Número de reivindicações independentes;
     \item Número de inventores;
-    \item Número de citações anteriores;
     \item Número de imagens da patente;
     \item Número de membros da família de patentes;
-    \item Número de referências não-patente;
+    \item Número de citações anteriores;
+    \item Número de referências a não-patentes;
+	\item Número de citações de não-patentes;
     \item Número de classificações IPC e CPC;
+	\item Classificadores IPC e CPC da patente;
+	\item Diversidade dos IPCs e CPCs.
     \item Diversidade tecnológica;
 	\item Número de substantivos no título;
 	\item Número de aplicações;
 	\item Soma da quantidade das 10 palavras mais frequentes no título na descrição da patente;
-	\item Número de citações não-patente;
-	\item Diversidade dos IPCs e CPCs.
-    \item Citações a termo (\textit{forward citations});
 \end{enumerate}
 
-A última variável possui importância especial, pois, de modo análogo aos algoritmos pioneiros de ranqueamento de páginas, a relevância de uma patente pode ser inferida pela quantidade de vezes que é citada.
+Usamos uma definição de patente promissora baseada na usada por \textcite{kyebambe2017forecasting}: são consideradas promissoras as patentes que possuem pelo menos um código IPC mais recente do que a própria data de publicação da patente. A premissa é que essas patentes têm maior potencial de avanço tecnológico, pois introduzem conceitos ou tecnologias que foram formalmente reconhecidos em classificações posteriores.
 
-Para o treinamento dos modelos, utilizou-se um conjunto de patentes publicadas entre 1995 e 2015. Em cada ano, as 10\% de patentes com maior número de citações a termo foram rotuladas como “promissoras” (variável-alvo), enquanto as demais foram rotuladas como “não promissoras”. Após essa rotulação, a variável de citações a termo foi removida do conjunto de treinamento para evitar vazamento de informação.
+Para o treinamento dos modelos, utilizou-se um conjunto de patentes publicadas entre 1974 e 2015. Em cada ano, as 10\% de patentes com maior número de citações a termo foram rotuladas como “promissoras” (variável-alvo), enquanto as demais foram rotuladas como “não promissoras”. Após essa rotulação, a variável de citações a termo foi removida do conjunto de treinamento para evitar vazamento de informação.
 
-A partir do conjunto rotulado, reservou-se 10\% para compor o conjunto de teste. Dos 90\% restantes, empregou-se uma abordagem semi-supervisionada: 30\% permaneceram como dados rotulados e 70\% foram tratados como não rotulados. Todo esse processamento foi realizado em Python utilizando a biblioteca Pandas.
+A partir do conjunto rotulado, reservou-se 10\% para compor o conjunto de teste. Os 90\% restantes foram utilizados para o treinamento.
+
+No caso do treinamento semissupervisionado, 30\% permaneceram como dados rotulados e 70\% foram tratados como não rotulados. Todo esse processamento foi realizado em Python utilizando a biblioteca Pandas.
 
 Os dados rotulados e não rotulados foram usados para treinar os algoritmos Random Forest e Support Vector Machine (SVM). O Random Forest contribui para mitigar vieses decorrentes do comportamento de uma única árvore, enquanto o SVM fornece uma fronteira de decisão robusta para classificação binária. O desempenho dos modelos foi avaliado no conjunto de teste mediante as métricas AUROC, AUC e F1-Score. O F1-Score permite reduzir falsos positivos e falsos negativos, enquanto a AUROC avalia a capacidade discriminante dos modelos.
+
+Além disso, para ambos os modelos, realizamos uma otimização do limiar de decisão (threshold) para melhorar o F1-Score. O limiar padrão de 0,5 pode não ser ideal, especialmente em conjuntos de dados desbalanceados. Desenvolvemos uma função para testar diferentes limiares e selecionar aquele que maximiza o F1-Score no conjunto de teste.
 
 O processo semi-supervisionado foi dividido em duas etapas. Na primeira, ambos os modelos foram treinados exclusivamente com o conjunto rotulado, aplicando-se validação cruzada via GridSearchCV da biblioteca \texttt{scikit-learn}. Para o SVM, testaram-se combinações dos parâmetros \texttt{C}, \texttt{gamma}, \texttt{kernel} (mantido como \texttt{rbf}) e \texttt{class\_weight}. Os valores testados foram: 
 \begin{itemize}
@@ -292,51 +298,74 @@ Em ambos os casos, utilizou-se \texttt{refit=True} para readequar o melhor model
 
 Na segunda etapa, os modelos treinados foram utilizados para classificar o conjunto não rotulado, e em seguida foram retreinados incorporando essas novas classificações.
 
-Em seguida, fizemos testes com uma outra definição de patentes promissoras.
-Usamos a definição usada por \textcite{kyebambe2017forecasting}: são consideradas promissoras as patentes que possuem pelo menos um código IPC mais recente do que a própria data de publicação da patente. A premissa é que essas patentes têm maior potencial de avanço tecnológico, pois introduzem conceitos ou tecnologias que foram formalmente reconhecidos em classificações posteriores.
-
-Utilizamos essa definição para rotular as patentes do conjunto de treinamento e repetimos o processo de treinamento e avaliação dos modelos Random Forest e SVM, conforme descrito anteriormente, além de termos testado também um treinamento puramente supervisionado. Essa abordagem alternativa visa explorar diferentes critérios de avaliação para identificar patentes promissoras, permitindo uma comparação entre os resultados obtidos com as duas definições distintas.
+Por fim, testamos uma estratégia de agregação de códigos IPC. A ideia é agrupar códigos IPC semelhantes em categorias mais amplas, reduzindo a granularidade dos dados e potencialmente melhorando a capacidade dos modelos de identificar padrões relevantes. Essa agregação também foi baseada em uma das métricas do \parencite{kyebambe2017forecasting}, e foi realizada com base na hierarquia dos códigos IPC, agrupando-os em níveis mais altos (seções ou classes) antes do treinamento dos modelos.
 
 \section{Resultados e Discussão}
-Ao acessar a plataforma do Instituto Nacional da Propriedade Industrial obtivemos um total de 908 patentes em 18 de agosto de 2025 e na plataforma da WIPO obtivemos outro conjunto de 6242 patentes em 10 de outubro de 2025. O conjunto de patentes obtido do INPI possui informações como número do pedido, data de depósito, título da patente e o código da Classificação Internacional de Patentes (IPC). Já o conjunto de patentes obtido do WIPO possui informações como número de pedido, número da submissão, data da submissão, país, título e IPC. 
+Ao acessar a plataforma da WIPO obtivemos um conjunto de 6242 patentes em 10 de outubro de 2025. O conjunto de patentes obtido do WIPO possui informações como número de pedido, número da submissão, data da submissão, país, título e IPC. No entanto, devido à idade de algumas patentes e à sua disponibilidade na internet, o conjunto final de patentes foi reduzido a 4973 patentes.
 
-No entanto, só os dados dos dois conjuntos de patentes não são suficientes para o treinamento dos modelos de inteligência artificial. Por essa razão, desenvolvemos um web scraper para complementar os dados. Os dados buscados para cada patente foram:  url, título, data de publicação, citações da patente (patent citations), citador por (cited by), resumo (abstract) , descrição (description), quantidade de imagens, documentos similares (similar documents), aplicações que reivindicam prioridade (application claiming priority), eventos Legais(legal events), conceitos (concepts), inventores (authors), outras linguagens (other languages), worldwide applications?, info e  links externos (external links). No entanto dado a idade de algumas patentes e a disponibilidade delas na internet ou mesmo no google patets o conjunto final de patentes foi reduzido a 5376 patentes.
-
-Realizando a separação do conjunto de dados total pelas patentes de 1995 a 2015 obtivemos o conjunto de treinamento com 3451 patentes. Deste conjunto obtivemos os valores presentes na tabela 1.
+Realizando a separação do conjunto de dados total pelas patentes de 1974 a 2015 obtivemos o conjunto de treinamento com 4115 patentes. Deste conjunto obtivemos os valores presentes na tabela 1.
 
 \begin{table}[H]
 	\centering
-	\begin{tabular}{c c c c c}
+	\begin{tabular}{c c c c}
 	\toprule
-	\textbf{Ano} & \textbf{Promissoras} & \textbf{Não promissoras} & \textbf{Total} & \textbf{Proporção} \\
+	\textbf{Ano} & \textbf{Promissoras} & \textbf{Não promissoras} &  \textbf{Proporção} \\
 	\midrule
-	1995 & 3  & 22  & 25  & 12.00\% \\
-	1996 & 6  & 50  & 56  & 10.71\% \\
-	1997 & 10 & 87  & 97  & 10.31\% \\
-	1998 & 17 & 144 & 161 & 10.56\% \\
-	1999 & 18 & 156 & 174 & 10.34\% \\
-	2000 & 17 & 153 & 170 & 10.00\% \\
-	2001 & 16 & 140 & 156 & 10.26\% \\
-	2002 & 13 & 110 & 123 & 10.57\% \\
-	2003 & 14 & 122 & 136 & 10.29\% \\
-	2004 & 3  & 25  & 28  & 10.71\% \\
-	2005 & 5  & 42  & 47  & 10.64\% \\
-	2006 & 7  & 61  & 68  & 10.29\% \\
-	2007 & 12 & 102 & 114 & 10.53\% \\
-	2008 & 15 & 129 & 144 & 10.42\% \\
-	2009 & 22 & 194 & 216 & 10.19\% \\
-	2010 & 23 & 207 & 230 & 10.00\% \\
-	2011 & 28 & 249 & 277 & 10.11\% \\
-	2012 & 37 & 319 & 356 & 10.39\% \\
-	2013 & 37 & 330 & 367 & 10.08\% \\
-	2014 & 30 & 262 & 292 & 10.27\% \\
-	2015 & 22 & 192 & 214 & 10.28\% \\
+	1974 & 3 & 1 & 75.00\% \\       
+1975 & 7 & 4 & 63.64\% \\       
+1976 & 13 & 4 & 76.47\% \\      
+1977 & 14 & 9 & 60.87\% \\      
+1978 & 8 & 8 & 50.00\% \\       
+1979 & 27 & 13 & 67.50\% \\     
+1980 & 19 & 41 & 31.67\% \\     
+1981 & 28 & 44 & 38.89\% \\     
+1982 & 10 & 34 & 22.73\% \\     
+1983 & 12 & 29 & 29.27\% \\     
+1984 & 12 & 25 & 32.43\% \\     
+1985 & 10 & 32 & 23.81\% \\     
+1986 & 9 & 27 & 25.00\% \\      
+1987 & 15 & 14 & 51.72\% \\     
+1988 & 15 & 20 & 42.86\% \\     
+1989 & 11 & 18 & 37.93\% \\     
+1990 & 5 & 20 & 20.00\% \\      
+1991 & 5 & 28 & 15.15\% \\      
+1992 & 3 & 19 & 13.64\% \\      
+1993 & 7 & 17 & 29.17\% \\      
+1994 & 8 & 16 & 33.33\% \\      
+1995 & 2 & 23 & 8.00\% \\       
+1996 & 10 & 46 & 17.86\% \\     
+1997 & 15 & 82 & 15.46\% \\     
+1998 & 35 & 126 & 21.74\% \\    
+1999 & 29 & 145 & 16.67\% \\    
+2000 & 16 & 154 & 9.41\% \\     
+2001 & 11 & 145 & 7.05\% \\     
+2002 & 10 & 113 & 8.13\% \\     
+2003 & 11 & 125 & 8.09\% \\
+2004 & 2 & 26 & 7.14\% \\       
+2005 & 0 & 47 & 0.00\% \\       
+2006 & 0 & 68 & 0.00\% \\       
+2007 & 0 & 114 & 0.00\% \\      
+2008 & 4 & 140 & 2.78\% \\      
+2009 & 4 & 212 & 1.85\% \\      
+2010 & 2 & 228 & 0.87\% \\      
+2011 & 0 & 277 & 0.00\% \\      
+2012 & 0 & 356 & 0.00\% \\      
+2013 & 0 & 367 & 0.00\% \\      
+2014 & 1 & 291 & 0.34\% \\      
+2015 & 4 & 210 & 1.87\% \\      
+2016 & 0 & 161 & 0.00\% \\      
+2017 & 1 & 196 & 0.51\% \\      
+2018 & 0 & 172 & 0.00\% \\      
+2019 & 3 & 151 & 1.95\% \\      
+2020 & 0 & 268 & 0.00\% \\      
+2021 & 2 & 295 & 0.67\% \\      
+2022 & 0 & 12 & 0.00\% \\       
+\midrule
+		Total & \textbf{403} & \textbf{4973} & \textbf{7.50\%} \\
 	\bottomrule
 	\end{tabular}
-	\caption{Distribuição anual de patentes e proporção de patentes promissoras (1995–2015)}
+	\caption{Distribuição anual de patentes e proporção de patentes promissoras}
 \end{table}
-
-Desse conjunto obtemos 346 patentes para o conjunto de teste, 931 patentes para o conjunto do treino supervisionado e 2174 patentes para o conjunto não rotulado.
 
 Com isso, nós partimos para o treino supervisionado com validação cruzada com o conjunto de 931 patentes e após o fim do treinamento obtivemos os modelos com as seguintes métricas na tabela 2.
 

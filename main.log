@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.17)  18 NOV 2025 23:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.10.5)  8 DEC 2025 01:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -53,7 +53,7 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 Package: babel 2024/01/07 v24.1 The Babel package
 \babel@savecnt=\count195
 \U@D=\dimen143
-\l@unhyphenated=\language5
+\l@unhyphenated=\language6
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
@@ -71,8 +71,17 @@ Package babel Info: Hyphen rules for 'australian' set to \l@english
 (babel)             (\language0). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@english
 (babel)             (\language0). Reported on input line 108.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/brazilian.ldf
+Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
+Package babel Info: Hyphen rules for 'brazilian' set to \l@portuguese
+(babel)             (\language5). Reported on input line 111.
+Package babel Info: Making " an active character on input line 143.
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
+(/usr/share/texlive/texmf-dist/tex/generic/babel/locale/pt/babel-brazilian.tex
+Package babel Info: Importing font and identification data for brazilian
+(babel)             from babel-pt-BR.ini. Reported on input line 11.
+) (/usr/share/texlive/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
 Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 11.
 )
@@ -426,7 +435,7 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 \bibhang=\skip61
 \blx@bcfin=\read3
 \blx@bcfout=\write3
-\blx@langwohyphens=\language6
+\blx@langwohyphens=\language7
 \c@mincomprange=\count338
 \c@maxcomprange=\count339
 \c@mincompwidth=\count340
@@ -649,15 +658,8 @@ File: csquotes.cfg
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
-Package csquotes Info: Redefining alias 'default' -> 'english'.
- (./main.aux
-(/usr/share/texlive/texmf-dist/tex/generic/babel/locale/pt/babel-brazilian.tex
-Package babel Info: Importing basic data for brazilian
-(babel)             from babel-pt-BR.ini. Reported on input line 11.
-)
-Package babel Info: Hyphen rules for 'brazilian' set to \l@english
-(babel)             (\language0). Reported on input line 9.
-)
+Package csquotes Info: Redefining alias 'default' -> 'brazilian'.
+ (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 158.
@@ -678,7 +680,8 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 158.
 LaTeX Font Info:    ... okay on input line 158.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 158.
 LaTeX Font Info:    ... okay on input line 158.
- (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count436
 \scratchdimen=\dimen166
@@ -718,6 +721,24 @@ Package hyperref Info: Link coloring ON on input line 158.
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
+Package biblatex Info: Trying to load language 'brazilian' -> 'brazilian-apa'..
+.
+Package biblatex Info: ... file 'brazilian-apa.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/brazilian-apa.lbx
+File: brazilian-apa.lbx 2023/03/20 v9.17 APA biblatex localisation
+Package biblatex Info: Trying to load language 'brazilian'...
+Package biblatex Info: ... file 'brazilian.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/brazilian.lbx
+File: brazilian.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'brazilian'...
+Package biblatex Info: ... file 'brazilian.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/brazilian.lbx
+File: brazilian.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+))
 Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
 Package biblatex Info: ... file 'english-apa.lbx' found.
 
@@ -745,24 +766,6 @@ Package biblatex Info: ... file 'english.lbx' found.
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 ))))
-Package biblatex Info: Trying to load language 'brazilian' -> 'brazilian-apa'..
-.
-Package biblatex Info: ... file 'brazilian-apa.lbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/brazilian-apa.lbx
-File: brazilian-apa.lbx 2023/03/20 v9.17 APA biblatex localisation
-Package biblatex Info: Trying to load language 'brazilian'...
-Package biblatex Info: ... file 'brazilian.lbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/brazilian.lbx
-File: brazilian.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
-)
-Package biblatex Info: Trying to load language 'brazilian'...
-Package biblatex Info: ... file 'brazilian.lbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/brazilian.lbx
-File: brazilian.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
-))
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -882,64 +885,71 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [2] [3]
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 24
-2.
+4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 ) [4] [5] [6] [7]
+Overfull \vbox (121.10356pt too high) has occurred while \output is active []
+
+
 [8
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.370 
-      
+l.369 
+      ] [9
 pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.370 
-      ] [9
+l.430 P
+       ara resolver esse problema, buscamos encontrar um limiar de decisão ...
+
 pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.419 
-      
+l.430 P
+       ara resolver esse problema, buscamos encontrar um limiar de decisão ...
+
 pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.419 
-      
+l.430 P
+       ara resolver esse problema, buscamos encontrar um limiar de decisão ...
+
 pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.419 
-      ] [10
+l.430 P
+       ara resolver esse problema, buscamos encontrar um limiar de decisão ...
+] [10
 pdfTeX warning (ext4): destination with the same identifier (name{table.6}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.461 
+l.486 
       
 pdfTeX warning (ext4): destination with the same identifier (name{table.7}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.461 
+l.486 
       
 pdfTeX warning (ext4): destination with the same identifier (name{table.8}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.461 
+l.486 
       ]
-Overfull \hbox (0.55312pt too wide) in paragraph at lines 500--501
-[]\T1/ptm/m/n/12 O \T1/ptm/b/n/12 Ran-dom For-est Se-mis-su-per-vi-sion-ado \T1
-/ptm/m/n/12 (N�vel IPC 3) obteve o pico de \T1/ptm/b/n/12 F1-Score (0.6667)\T1/
-ptm/m/n/12 .
+Overfull \hbox (0.55312pt too wide) in paragraph at lines 529--530
+[]\T1/ptm/m/n/12 O \T1/ptm/b/n/12 Ran-dom Fo-rest Se-mis-su-per-vi-si-o-nado \T
+1/ptm/m/n/12 (N�-vel IPC 3) ob-teve o pico de \T1/ptm/b/n/12 F1-Score (0.6667)\
+T1/ptm/m/n/12 .
  []
 
 [11
@@ -947,115 +957,115 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.9}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.508 
-      
+l.531 \end{itemize}
+                   
 pdfTeX warning (ext4): destination with the same identifier (name{table.10}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.508 
-      ]
-Underfull \hbox (badness 10000) detected at line 515
+l.531 \end{itemize}
+                   ]
+Underfull \hbox (badness 10000) detected at line 544
 [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 515
-[][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 515
-[][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 515
-[][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 515
+Underfull \hbox (badness 10000) detected at line 544
 [][]
  []
 
 [12]
-Underfull \hbox (badness 10000) detected at line 515
+Underfull \hbox (badness 10000) detected at line 544
 [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 515
+Underfull \hbox (badness 10000) detected at line 544
 [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 515
+Underfull \hbox (badness 10000) detected at line 544
 [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 515
+Underfull \hbox (badness 10000) detected at line 544
 [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 515
+Underfull \hbox (badness 10000) detected at line 544
 [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 515
+Underfull \hbox (badness 10000) detected at line 544
 [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 515
+Underfull \hbox (badness 10000) detected at line 544
 [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 515
+Underfull \hbox (badness 10000) detected at line 544
 [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 515
+Underfull \hbox (badness 10000) detected at line 544
 [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 515
+Underfull \hbox (badness 10000) detected at line 544
 [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 515
+Underfull \hbox (badness 10000) detected at line 544
 [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 515
+Underfull \hbox (badness 10000) detected at line 544
 [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 515
+Underfull \hbox (badness 10000) detected at line 544
 [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 515
+Underfull \hbox (badness 10000) detected at line 544
 [][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 515
+Underfull \hbox (badness 10000) detected at line 544
 [][]
  []
 
 [13]
-Underfull \hbox (badness 10000) detected at line 515
+Underfull \hbox (badness 10000) detected at line 544
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 544
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 544
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 544
 [][]
  []
 
@@ -1064,37 +1074,30 @@ Underfull \hbox (badness 10000) detected at line 515
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 1E6FF4174AF9B92E4A45E5DC01827133;1874.
-
-Package biblatex Warning: Please rerun LaTeX.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21251 strings out of 476182
- 373973 string characters out of 5795594
+ 21221 strings out of 476162
+ 372854 string characters out of 5794814
  2047975 words of memory out of 5000000
- 42906 multiletter control sequences out of 15000+600000
+ 42879 multiletter control sequences out of 15000+600000
  628052 words of font info for 140 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 94i,13n,107p,916b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 16 hyphenation exceptions out of 8191
+ 94i,13n,107p,798b,4984s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
 /utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (14 pages, 179756 bytes).
+Output written on main.pdf (14 pages, 179427 bytes).
 PDF statistics:
- 258 PDF objects out of 1000 (max. 8388607)
- 223 compressed objects within 3 object streams
+ 261 PDF objects out of 1000 (max. 8388607)
+ 226 compressed objects within 3 object streams
  73 named destinations out of 1000 (max. 500000)
  78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
