@@ -25,6 +25,7 @@
 % Table formatting packages used by the manuscript's result tables
 \usepackage{booktabs}
 \usepackage{float}
+\usepackage{longtable} % Ensure the longtable package is included in the preamble
 
 % Citations and references (Biblatex)
 % Use biber as backend and ensure alphabetical (name-year) sorting per template
@@ -105,7 +106,7 @@
 \titleinenglish{Identification of emerging ethanol technologies from Brazilian patent data using ML}
 
 % If the manuscript is written in English, then this element must be removed.
-%\titleinspanish{Identificación de tecnologías emergentes de etanol a partir de datos de patentes utilizando aprendizaje automático.}
+%\titleinspanish{Identificación de tecnologías emergentes de etanol a partir de dados de patentes utilizando aprendizado automático.}
 
 % Here goes the paper author information (repeat for two or more authors)
 \author{%
@@ -184,7 +185,7 @@ We study Brazilian patents to identify emerging ethanol technologies using Rando
 % If the manuscript is written in English, then this element must be removed.
 % \begin{otherlanguage}{spanish}
 % \begin{abstract}
-% <Aquí viene el resumen del artículo en español. El resumen debe resumir el contenido del manuscrito y debe contener un mínimo de 150 y un máximo de 300~palabras y debe estar escrito en cursiva, Times~10, justificado, sin sangría especial y sin espacio antes o después.>
+% <Aquí viene el resumen del artículo en español. El resumen debe resumir el contenido del manuscrito y debe contener un mínimo de 150 y un máximo de 300~palabras y debe estar escrito en cursiva, Times~10, justificado, sin sangría especial e sin espaço antes ou depois.>
 % \keywords <El resumen debe ir seguido de 3 a 10 palabras clave. Las palabras clave deben estar justificadas con un espacio de línea simple, sin sangría especial, sin espacios antes y con un espacio de exactamente 24 puntos después. El texto debe configurarse fuente Times con tamaño de 10 puntos y en estilo de fuente cursiva. Utilice punto y coma como separador. Las palabras clave deben comenzar con una letra mayúscula.>
 % \end{abstract}
 % \end{otherlanguage}
@@ -305,81 +306,87 @@ Ao acessar a plataforma da WIPO obtivemos um conjunto de 6242 patentes em 10 de 
 
 Realizando a separação do conjunto de dados total pelas patentes de 1974 a 2015 obtivemos o conjunto de treinamento com 4115 patentes. Deste conjunto obtivemos os valores presentes na tabela 1.
 
-\begin{table}[H]
-	\centering
-	\begin{tabular}{c c c c}
-	\toprule
-	\textbf{Ano} & \textbf{Promissoras} & \textbf{Não promissoras} &  \textbf{Proporção} \\
-	\midrule
-	1974 & 3 & 1 & 75.00\% \\       
-1975 & 7 & 4 & 63.64\% \\       
-1976 & 13 & 4 & 76.47\% \\      
-1977 & 14 & 9 & 60.87\% \\      
-1978 & 8 & 8 & 50.00\% \\       
-1979 & 27 & 13 & 67.50\% \\     
-1980 & 19 & 41 & 31.67\% \\     
-1981 & 28 & 44 & 38.89\% \\     
-1982 & 10 & 34 & 22.73\% \\     
-1983 & 12 & 29 & 29.27\% \\     
-1984 & 12 & 25 & 32.43\% \\     
-1985 & 10 & 32 & 23.81\% \\     
-1986 & 9 & 27 & 25.00\% \\      
-1987 & 15 & 14 & 51.72\% \\     
-1988 & 15 & 20 & 42.86\% \\     
-1989 & 11 & 18 & 37.93\% \\     
-1990 & 5 & 20 & 20.00\% \\      
-1991 & 5 & 28 & 15.15\% \\      
-1992 & 3 & 19 & 13.64\% \\      
-1993 & 7 & 17 & 29.17\% \\      
-1994 & 8 & 16 & 33.33\% \\      
-1995 & 2 & 23 & 8.00\% \\       
-1996 & 10 & 46 & 17.86\% \\     
-1997 & 15 & 82 & 15.46\% \\     
-1998 & 35 & 126 & 21.74\% \\    
-1999 & 29 & 145 & 16.67\% \\    
-2000 & 16 & 154 & 9.41\% \\     
-2001 & 11 & 145 & 7.05\% \\     
-2002 & 10 & 113 & 8.13\% \\     
-2003 & 11 & 125 & 8.09\% \\
-2004 & 2 & 26 & 7.14\% \\       
-2005 & 0 & 47 & 0.00\% \\       
-2006 & 0 & 68 & 0.00\% \\       
-2007 & 0 & 114 & 0.00\% \\      
-2008 & 4 & 140 & 2.78\% \\      
-2009 & 4 & 212 & 1.85\% \\      
-2010 & 2 & 228 & 0.87\% \\      
-2011 & 0 & 277 & 0.00\% \\      
-2012 & 0 & 356 & 0.00\% \\      
-2013 & 0 & 367 & 0.00\% \\      
-2014 & 1 & 291 & 0.34\% \\      
-2015 & 4 & 210 & 1.87\% \\      
-2016 & 0 & 161 & 0.00\% \\      
-2017 & 1 & 196 & 0.51\% \\      
-2018 & 0 & 172 & 0.00\% \\      
-2019 & 3 & 151 & 1.95\% \\      
-2020 & 0 & 268 & 0.00\% \\      
-2021 & 2 & 295 & 0.67\% \\      
-2022 & 0 & 12 & 0.00\% \\       
+\begin{longtable}{c c c c}
+\caption{Distribuição anual de patentes e proporção de patentes promissoras}\\
+\toprule
+\textbf{Ano} & \textbf{Promissoras} & \textbf{Não promissoras} &  \textbf{Proporção} \\
 \midrule
-		Total & \textbf{403} & \textbf{4973} & \textbf{7.50\%} \\
-	\bottomrule
-	\end{tabular}
-	\caption{Distribuição anual de patentes e proporção de patentes promissoras}
-\end{table}
+\endfirsthead
+\caption[]{Distribuição anual de patentes e proporção de patentes promissoras (continuação)}\\
+\toprule
+\textbf{Ano} & \textbf{Promissoras} & \textbf{Não promissoras} &  \textbf{Proporção} \\
+\midrule
+\endhead
+\midrule
+\multicolumn{4}{r}{Continua na próxima página}
+\endfoot
+\bottomrule
+\endlastfoot
+1974 & 3 & 1 & 75.00\% \\
+1975 & 7 & 4 & 63.64\% \\
+1976 & 13 & 4 & 76.47\% \\
+1977 & 14 & 9 & 60.87\% \\
+1978 & 8 & 8 & 50.00\% \\
+1979 & 27 & 13 & 67.50\% \\
+1980 & 19 & 41 & 31.67\% \\
+1981 & 28 & 44 & 38.89\% \\
+1982 & 10 & 34 & 22.73\% \\
+1983 & 12 & 29 & 29.27\% \\
+1984 & 12 & 25 & 32.43\% \\
+1985 & 10 & 32 & 23.81\% \\
+1986 & 9 & 27 & 25.00\% \\
+1987 & 15 & 14 & 51.72\% \\
+1988 & 15 & 20 & 42.86\% \\
+1989 & 11 & 18 & 37.93\% \\
+1990 & 5 & 20 & 20.00\% \\
+1991 & 5 & 28 & 15.15\% \\
+1992 & 3 & 19 & 13.64\% \\
+1993 & 7 & 17 & 29.17\% \\
+1994 & 8 & 16 & 33.33\% \\
+1995 & 2 & 23 & 8.00\% \\
+1996 & 10 & 46 & 17.86\% \\
+1997 & 15 & 82 & 15.46\% \\
+1998 & 35 & 126 & 21.74\% \\
+1999 & 29 & 145 & 16.67\% \\
+2000 & 16 & 154 & 9.41\% \\
+2001 & 11 & 145 & 7.05\% \\
+2002 & 10 & 113 & 8.13\% \\
+2003 & 11 & 125 & 8.09\% \\
+2004 & 2 & 26 & 7.14\% \\
+2005 & 0 & 47 & 0.00\% \\
+2006 & 0 & 68 & 0.00\% \\
+2007 & 0 & 114 & 0.00\% \\
+2008 & 4 & 140 & 2.78\% \\
+2009 & 4 & 212 & 1.85\% \\
+2010 & 2 & 228 & 0.87\% \\
+2011 & 0 & 277 & 0.00\% \\
+2012 & 0 & 356 & 0.00\% \\
+2013 & 0 & 367 & 0.00\% \\
+2014 & 1 & 291 & 0.34\% \\
+2015 & 4 & 210 & 1.87\% \\
+2016 & 0 & 161 & 0.00\% \\
+2017 & 1 & 196 & 0.51\% \\
+2018 & 0 & 172 & 0.00\% \\
+2019 & 3 & 151 & 1.95\% \\
+2020 & 0 & 268 & 0.00\% \\
+2021 & 2 & 295 & 0.67\% \\
+2022 & 0 & 12 & 0.00\% \\
+\textbf{Total} & \textbf{403} & \textbf{4973} & \textbf{7.50\%} \\
+\end{longtable}
 
-Com isso, nós partimos para o treino supervisionado com validação cruzada com o conjunto de 931 patentes e após o fim do treinamento obtivemos os modelos com as seguintes métricas na tabela 2.
+Com isso, nós partimos para o treino supervisionado com validação cruzada. Os modelos obtiveram os valores presentes na tabela 2.
 
 \begin{table}[H]
-	\centering
-	\begin{tabular}{c c c}
-		\toprule
-		\textbf{aaa} & \textbf{F1-Score} & \textbf{AUROC} \\
-		\midrule
-		SVM 		  & 0.4483  & 0.8643 \\
-		Random Forest & 0.4407  & 0.8705 \\
-	\bottomrule
-	\end{tabular}
-	\caption{Valores de F1-Score e AUROC dos modelos treinados supervisionadamente}
+        \centering
+        \begin{tabular}{c c c c}
+                \toprule
+                \textbf{Modelo} & \textbf{Melhor Limiar} & \textbf{F1-Score} & \textbf{AUROC} \\
+                \midrule
+                SVM                   & 0.1745  & 0.4384 & 0.8004 \\
+                Random Forest & 0.2791  & \textbf{0.5814} & \textbf{0.9117} \\
+        \bottomrule
+        \end{tabular}
+        \caption{Desempenho dos modelos SVM e Random Forest no conjunto de teste}
 \end{table}
 
 Usamos cada um dos modelo para classificar o conjunto de 2174 patentes não rotuladas e após a classificação retreinamos o SVM e o Random Forest com o conjunto total rotulado obtendo os modelos finais. Desses modelos obtivemos as seguintes métricas na tabela 3.
@@ -468,19 +475,6 @@ Para resolver esse problema, buscamos encontrar um limiar de decisão mais adequ
 Nesta fase, trocamos a definição de patente promissora.
 
 A nova rotulagem teve \textbf{397 patentes} da base de dados consideradas como promissoras. Devido a grande quantidade de patentes antigas promissoras na base, incluímos dados mais antigos no treinamento, o que resultou em um conjunto total de treinamento de \textbf{4115 patentes}, com uma proporção de $\sim$9,6\% de patentes promissoras. A Tabela 8 resume o desempenho obtido no conjunto de teste com esta nova rotulagem.
-
-\begin{table}[H]
-        \centering
-        \begin{tabular}{c c c c}
-                \toprule
-                \textbf{Modelo} & \textbf{Melhor Limiar} & \textbf{F1-Score} & \textbf{AUROC} \\
-                \midrule
-                SVM                   & 0.1745  & 0.4384 & 0.8004 \\
-                Random Forest & 0.2791  & \textbf{0.5814} & \textbf{0.9117} \\
-        \bottomrule
-        \end{tabular}
-        \caption{Desempenho dos modelos SVM e Random Forest com a nova definição de patente promissora (Conjunto 4115 patentes)}
-\end{table}
 
 A comparação direta com os resultados iniciais do modelo final (Tabela 3) mostra uma melhora significativa nas métricase. O modelo \textbf{Random Forest} alcançou o melhor desempenho global neste cenário.
 
